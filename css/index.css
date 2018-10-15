@@ -1,0 +1,78 @@
+#menu {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#menu > .row {
+  padding: 10px 0px;
+  background-color: #fff;
+}
+#menu > .row > .menu-item {
+  width: 25%;
+  text-align: center;
+  float: left;
+  overflow: hidden;
+  margin-top: 15px;
+}
+#menu > .row > .menu-item > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#menu > .row > .menu-item > a > img {
+  width: 50px;
+}
+#menu > .row > .menu-item > a > p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
+#recommen-product .recommen-product-list {
+  background-color: #fff;
+  text-align: left;
+  font-size: 14px;
+  max-width: 960px;
+  margin: 0px auto;
+}
+#recommen-product .recommen-product-list ul li {
+  padding: 14px 8px;
+  position: relative;
+  border-bottom: 1px solid #e7e7e7;
+}
+#recommen-product .recommen-product-list .more-bar {
+  text-align: center;
+  width: 100%;
+}
+#recommen-product .recommen-product-list .more-bar a {
+  display: block;
+  line-height: 30px;
+  background-color: #f4f4f4;
+  text-decoration: none;
+  font-size: 13px;
+  background-image: linear-gradient(#ffffff, #f4f4f4);
+  margin: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+.list-title .list-title-content {
+  height: 35px;
+  background-color: #ff9000;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffaf47), to(#ff9000));
+  border-bottom: solid 1px #ffc881;
+  line-height: 35px;
+  overflow: hidden;
+  color: #fff;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  clear: both;
+}
+.list-title .list-title-content span {
+  font-weight: normal;
+  font-size: 16px;
+}
+.list-title .list-title-content img {
+  float: right;
+  margin-right: 10px;
+  color: #fff;
+  margin-top: 8px;
+}
